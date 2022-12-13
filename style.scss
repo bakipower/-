@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    body{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-color: aliceblue;
+    }
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .trailer{
+        display: flex;
+        flex-direction: column;
+
+      
+        .card1{
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid rgb(71, 146, 212);
+
+
+        
+            ul{
+                margin: 20px;
+            }
+        }
+    }
+}
+       
+
+
+
+@import 'header';
+@import 'main';
+
